@@ -1,1 +1,3 @@
-console.log('working');
+import { ObserverPatternDemo } from './observer';
+
+ObserverPatternDemo();
