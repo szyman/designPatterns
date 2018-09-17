@@ -3,9 +3,11 @@ import { FactoryPatternDemo } from './factory';
 import { PrototypePatternDemo } from './prototype';
 import { DecoratorPatternDemo } from './decorator';
 import { FacadePatternDemo } from './facade';
+import { BridgePatternDemo } from './bridge';
 
 //ObserverPatternDemo();
 //FactoryPatternDemo();
 //PrototypePatternDemo();
 //DecoratorPatternDemo();
-FacadePatternDemo();
+//FacadePatternDemo();
+BridgePatternDemo();
