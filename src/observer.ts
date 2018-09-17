@@ -29,15 +29,17 @@ class Subject {
 }
 
 abstract class Observer {
+    constructor(subject: Subject) {
+        this.subject = subject;
+        this.subject.attach(this);
+    }
     protected subject: Subject;
     abstract update(): void
 }
 
 class BinaryObserver extends Observer {
     constructor(subject: Subject) {
-        super();
-        this.subject = subject;
-        this.subject.attach(this);
+        super(subject);
     }
 
     update(): void {
@@ -47,9 +49,7 @@ class BinaryObserver extends Observer {
 
 class OctaObserver extends Observer {
     constructor(subject: Subject) {
-        super();
-        this.subject = subject;
-        this.subject.attach(this);
+        super(subject);
     }
 
     update(): void {

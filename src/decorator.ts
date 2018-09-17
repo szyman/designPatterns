@@ -40,7 +40,7 @@ class RedShapeDecorator extends ShapeDecorator {
     }
 
     draw(): void {
-        this.decoratedShape.draw();
+        super.draw();
         this.setRedBorder(this.decoratedShape);
     }
 
