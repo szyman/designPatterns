@@ -4,10 +4,12 @@ import { PrototypePatternDemo } from './prototype';
 import { DecoratorPatternDemo } from './decorator';
 import { FacadePatternDemo } from './facade';
 import { BridgePatternDemo } from './bridge';
+import { AdapterPatternDemo } from './adapter';
 
 //ObserverPatternDemo();
 //FactoryPatternDemo();
 //PrototypePatternDemo();
 //DecoratorPatternDemo();
 //FacadePatternDemo();
-BridgePatternDemo();
+//BridgePatternDemo();
+AdapterPatternDemo();

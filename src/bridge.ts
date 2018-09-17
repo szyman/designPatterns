@@ -1,4 +1,4 @@
-https://www.tutorialspoint.com/design_pattern/bridge_pattern.htm
+// https://www.tutorialspoint.com/design_pattern/bridge_pattern.htm
 
 interface DrawAPI {
     drawCircle(radius: number, x: number, y:number): void;
