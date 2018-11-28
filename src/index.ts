@@ -17,3 +17,4 @@ import { CompositePatternDemo } from './composite';
 //AdapterPatternDemo();
 AdapterPatternDemo2();
 //CompositePatternDemo();
+//CompositePatternDemo();
