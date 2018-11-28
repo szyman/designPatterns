@@ -7,6 +7,7 @@ import { BridgePatternDemo } from './bridge';
 import { AdapterPatternDemo } from './adapter';
 import { AdapterPatternDemo2 } from './adapter2';
 import { CompositePatternDemo } from './composite';
+import { SingletonPatternDemo } from './singleton';
 
 //ObserverPatternDemo();
 //FactoryPatternDemo();
@@ -15,6 +16,7 @@ import { CompositePatternDemo } from './composite';
 //FacadePatternDemo();
 //BridgePatternDemo();
 //AdapterPatternDemo();
-AdapterPatternDemo2();
+//AdapterPatternDemo2();
 //CompositePatternDemo();
 //CompositePatternDemo();
+SingletonPatternDemo();
