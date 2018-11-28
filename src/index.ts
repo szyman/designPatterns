@@ -5,6 +5,7 @@ import { DecoratorPatternDemo } from './decorator';
 import { FacadePatternDemo } from './facade';
 import { BridgePatternDemo } from './bridge';
 import { AdapterPatternDemo } from './adapter';
+import { CompositePatternDemo } from './composite';
 
 //ObserverPatternDemo();
 //FactoryPatternDemo();
@@ -12,4 +13,5 @@ import { AdapterPatternDemo } from './adapter';
 //DecoratorPatternDemo();
 //FacadePatternDemo();
 //BridgePatternDemo();
-AdapterPatternDemo();
+//AdapterPatternDemo();
+CompositePatternDemo();
